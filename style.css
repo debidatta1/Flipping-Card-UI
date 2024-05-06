@@ -16,6 +16,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #fff;
 }
 
 section::before {
@@ -54,3 +55,13 @@ section::after {
     backdrop-filter: blur(25px);
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
+
+.front-face .logo img {
+    width: 48px;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
